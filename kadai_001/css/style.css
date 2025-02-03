@@ -84,6 +84,7 @@ footer {
   .header-inner>p,#nav-pc>a {
     font-size: 20px;
   }
+
   .about-section {
     flex-direction: column;
   }
@@ -93,7 +94,11 @@ footer {
     align-items: center;
   }
   .work {
+    padding-bottom: 40px;
     width: 100%;
     margin: 0 40px;
+  }
+  .work p {
+    text-align: center;
   }
 }
