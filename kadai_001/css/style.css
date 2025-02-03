@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans JP";
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 20px auto;
+  align-items: center;
+
+}
+header p {
+  border: 1px solid #000000;
+  font-size: 34px;
+  padding: 0 30px;
+}
+
+#nav-pc a {
+  font-size: 34px;
+  margin: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+#main-img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* about */
+.index {
+  font-size: 34px;
+  text-align: center;
+}
+#about-img {
+  border-radius: 50%;
+  width: 282px;
+  height: 284px;
+  margin: 20px;
+}
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+.intoduce {
+  margin: 0 50px;
+}
+#about  p {
+  font-size: 24px;
+}
+
+/* works */
+.works-section {
+  display: flex;
+  max-width: 960px;
+  justify-content: center;
+  margin: 0 auto;
+}
+#work {
+  width: 100%;
+}
+.work {
+  width: 25%;
+  margin: 10px;
+}
+
+/* footer */
+footer {
+  margin-top: 60px;
+  text-align: center;
+}
+
+
+/* レスポンシブデザイン */
+@media screen and (max-width:767px){
+  .header-inner>p,#nav-pc>a {
+    font-size: 20px;
+  }
+  .about-section {
+    flex-direction: column;
+  }
+
+  .works-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .work {
+    width: 100%;
+    margin: 0 40px;
+  }
+}
